@@ -4,6 +4,10 @@
   <title>Google</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
+html {
+  margin: 0;
+  padding: 0;
+}
 .topnav {
   overflow: hidden;
   /*background-color: #e9e9e9;*/
@@ -19,6 +23,8 @@
   border-radius: 20px;
   margin: 20px 0px 15px 0px;
   width: 45%;
+  background-color: transparent;
+  opacity: 45%;
 }
 
 /*input [type=text] {
@@ -71,12 +77,16 @@ a {
   position: relative;
 }
 #footer {
-  width: 97%;
+  width: 99%;
   background-color: none;
   color: black;
   overflow: hidden;
   position: fixed;
   bottom: 0;
+  border-top: 1px solid #e4e4e4;
+  background: #f2f2f2;
+  line-height: 1px;
+  
 }
 #footer p.left {
   float: left;
@@ -84,16 +94,51 @@ a {
 #footer p.right {
   float: right;
 }
+#header{
+  width: 100%;
+  background-color: none;
+  color: black;
+  overflow: hidden;
+  
+}
+#header p.left {
+  float: left;
+}
+#header p.right{
+  float: right;  
+}
+.reframe {
+  height: 25px;
+  width: 25px;
+  overflow: hidden;
+}
+.reframeicon {
+  height: 35px;
+  width: 35px;
+  overflow: hidden;
+}
+#opaque {
+  opacity: 0.60;
+}
+
+
 </style>
 </head> 
 <body>
-<header>
-  <ul>
-    <li><a href="#about">About</a></li>
-    <li><a href="#store">Store</a></li>
-    <li><a href="#gmail">Gmail</a></li>
-    <li><a href="#images">Images</a></li>
-  </ul>
+<header id="header">
+  <p class="left">
+      <a href="#about">About</a>
+      <a href="#store">Store</a>  
+  </p>
+  <p class="right">
+    <a href="#gmail">Gmail</a>
+    <a href="#images">Images</a>
+    <a href="google apps">
+    <img id="opaque" class="reframe" src="-apps_90405.png" alt="Google apps" title="Google apps" align="middle"/></a>
+    <a href="google account">
+    <img class="reframeicon" src="googleicon.jpg" alt="Google account" title="Google account" align="middle"/></a>
+    
+  </p>  
 </header>
 <div id="page-container">
   <div id="content wrap">
@@ -143,6 +188,13 @@ a {
     <li><a href="#privacy">Privacy</a></li>
     <li><a href="#terms">Terms</a></li>
     <li><a href="#settings">Settings</a></li>
+  </ul>-->
+
+  <!--<ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#store">Store</a></li>
+    <li><a href="#gmail">Gmail</a></li>
+    <li><a href="#images">Images</a></li>
   </ul>-->
 
 </body>
