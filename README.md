@@ -1,0 +1,1 @@
+This project marks my first official attempt to setup a replication of an existing website. I will be using basic html and css styling, using git as a version control system. Final product will be published on my github. 
