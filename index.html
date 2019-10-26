@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<head></head>
-<body>
+<head>
+  <title>Google</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 .topnav {
   overflow: hidden;
-  background-color: #e9e9e9;
+  /*background-color: #e9e9e9;*/
 }
 a:link {
   color: black;
@@ -18,25 +18,56 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  overflow: hidden;
 }
 li {
-  display: inline;
+  float: left;
   color: black;
 }
-footer {
-  display: block;
+a {
+  display: inline-block;
+  padding: .5em;
+  font-size: 0.8em;
+  background-color: none;
 }
-</style> 
+#page-container {
+  position: relative;
+   height: 100%;
+}
+#content-wrap {
+  padding-bottom: 2.5rem;
+  position: relative;
+}
+#footer {
+  width: 97%;
+  background-color: none;
+  color: black;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+}
+#footer p.left {
+  float: left;
+}
+#footer p.right {
+  float: right;
+}
+</style>
+</head> 
+<body>
+
   <ul>
     <li><a href="#about">About</a></li>
     <li><a href="#store">Store</a></li>
     <li><a href="#gmail">Gmail</a></li>
     <li><a href="#images">Images</a></li>
   </ul>
+
+<div id="page-container">
+  <div id="content wrap">
   <center>
-    <h1></h1>
     <div>
-      <img alt="Google" src="googlelogo_color_272x92dp.png" padding-top: 209px; width="272" height="92">
+      <img alt="Google" src="googlelogo_color_272x92dp.png" align="middle" padding-top: 200px; border: 20px; style="margin: 200px 0px 5px 0px" width="272" height="92">
     </div>
     <div class="topnav">
       <!--<a class="active" href="#home">Home</a>-->
@@ -45,16 +76,31 @@ footer {
           <button type="submit"><i class="fa fa-search"></i></button>
       </div>
     </div>
-  </center> 
-<footer>
-  <p></p>
-  <ul>
+  </center>
+  </div>
+  
+    <footer id="footer">
+      <p class="left">
+        <a href="#advertising">Advertising</a>
+        <a href="#business">Business</a>
+      </p>
+      <p class="right">
+        <a href="#privacy">Privacy</a>
+        <a href="#terms">Terms</a>
+        <a href="#settings">Settings</a>
+      </p>
+    </footer>
+</div>
+  
+  
+  
+  <!--<ul>
     <li><a href="#advertising">Advertising</a></li>
     <li><a href="#business">Business</a></li>
     <li><a href="#how-search-works">How Search Works</a></li>
     <li><a href="#privacy">Privacy</a></li>
     <li><a href="#terms">Terms</a></li>
     <li><a href="#settings">Settings</a></li>
-  </ul>
+  </ul>-->
 </footer>
 </body>
