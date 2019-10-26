@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html>
 <head>
   <title>Google</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -9,15 +10,17 @@
 }
 .buttons {
   display: inline;
-  padding: .15em;
+  padding: .20em;
+  font-family: arial,sans-serif;
+  font-size: 14px;
 }
 #searchbar {
   padding: 10px;
   border-radius: 20px;
   margin: 20px 0px 15px 0px;
   width: 45%;
-  
 }
+
 /*input [type=text] {
   width: 45%;
   box-sizing: border-box;
@@ -54,6 +57,10 @@ a {
   padding: .5em;
   font-size: 0.8em;
   background-color: none;
+  color: #000;
+  text-decoration: none;
+  opacity: 0.75;
+  font-family: arial,sans-serif;
 }
 #page-container {
   position: relative;
@@ -80,14 +87,14 @@ a {
 </style>
 </head> 
 <body>
-
+<header>
   <ul>
     <li><a href="#about">About</a></li>
     <li><a href="#store">Store</a></li>
     <li><a href="#gmail">Gmail</a></li>
     <li><a href="#images">Images</a></li>
   </ul>
-
+</header>
 <div id="page-container">
   <div id="content wrap">
   <center>
@@ -108,7 +115,7 @@ a {
           <button type="submit">Google Search</button>
         </form>
         <form class="buttons" action="results.html">
-            <button type="submit">I'm Feeling Lucky</button>
+          <button type="submit">I'm Feeling Lucky</button>
         </form>
         </inline>
       </div>
@@ -139,3 +146,4 @@ a {
   </ul>-->
 
 </body>
+</html>
