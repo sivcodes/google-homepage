@@ -7,10 +7,12 @@ html {
 body {
   font-family: arial,sans-serif;
   font-size: 14px;
+  margin: 0 auto;
+  max-width: 50em;
 }
 #searchbar {
   padding: 10px;
-  border-radius: 20px;
+  border-radius: 24px;
   margin: 20px 0px 15px 0px;
   width: 60%;
   background-color: transparent;
@@ -22,19 +24,22 @@ body {
   border: 0;
   float: left;
 }
+#content-wrap {
+  padding-bottom: 2.5rem;
+  position: relative;
+  display: inline;
+}
 #header {
   width: 100%;
-  background-color: none;
-  color: black;
   overflow: hidden;
   height: 65px;
 }
-.topnav {
+/*.topnav {
   overflow: hidden;
   height:100px;
   width:100%;
   display: inline;
-}
+}*/
 
 /*#page-container {
   position: relative;
