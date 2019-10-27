@@ -4,3 +4,39 @@ html {
   font-family: arial, sans-serif;
   font-size: 14px;
   }
+body {
+  font-family: arial,sans-serif;
+  font-size: 14px;
+}
+#searchbar {
+  padding: 10px;
+  border-radius: 20px;
+  margin: 20px 0px 15px 0px;
+  width: 60%;
+  background-color: transparent;
+  opacity: 45%;
+}
+#googleicon {
+  width: 92px;
+  height: 30px;
+  border: 0;
+  float: left;
+}
+#header {
+  width: 100%;
+  background-color: none;
+  color: black;
+  overflow: hidden;
+  height: 65px;
+}
+.topnav {
+  overflow: hidden;
+  height:100px;
+  width:100%;
+  display: inline;
+}
+
+/*#page-container {
+  position: relative;
+   height: 20px;
+}*/
