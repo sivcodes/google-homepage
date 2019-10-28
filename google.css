@@ -53,6 +53,7 @@ body {
   width: 100%;
   border-bottom: solid 1px rgb(228, 228, 228);
   border-width: thin;
+  
 }
 
 
@@ -60,20 +61,14 @@ body {
   position: relative;
    height: 20px;
 }*/
-
-
-.has-search .form-control {
-  padding-left: 2.375rem;
+.bodywrap {
+  text-align: center;
 }
+.maincontent {
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  background: rgb(91, 187, 91);
+  display: inline-block;
 
-.has-search .form-control-feedback {
-  position: absolute;
-  z-index: 2;
-  display: block;
-  width: 2.375rem;
-  height: 2.375rem;
-  line-height: 2.375rem;
-  text-align: right;
-  pointer-events: none;
-  color: #aaa;
 }
